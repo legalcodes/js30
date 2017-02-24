@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+      </div>
+    </div>
+
+
+    <style>
+     html {
+       background-size: cover;
+       font-family: 'helvetica neue';
+       text-align: center;
+       font-size: 10px;
+     }
+
+     body {
+     }
+
+     .clock-face {
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       border-style: solid;
+       border-width: medium;
+       border-color: black;
+       margin: auto;
+       position: absolute;
+       top: 0; left: 0; bottom: 0; right: 0;
+     }
+
+     .hand {
+       width: 50%;
+       height: 6px;
+       background: black;
+       position: absolute;
+       top: 50%;
+     }
+
+
+    </style>
+  </body>
+</html>
